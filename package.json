@@ -1,0 +1,43 @@
+{
+  "name": "nixfilter-rtble",
+  "version": "0.0.1",
+  "description": "Filter for setting the target temperature of a eqiva eQ-3 Bluetooth Smart Radiator Thermostat",
+  "main": "index.js",
+  "bin": {
+    "nixfilter-rtble-temperature": "./rtble_temperature.js"
+  },
+  "scripts": {
+    "compile": "coffee --bare --no-header --map --compile *.coffee",
+    "prepublishOnly": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oyooyo/nixfilter-rtble.git"
+  },
+  "keywords": [
+    "Bluetooth",
+    "btle",
+    "ble",
+    "eqiva",
+    "eq-3",
+    "eq3",
+    "Filter",
+    "nixfilter",
+    "Radiator",
+    "Radiator Thermostat",
+    "Thermostat",
+    "UNIX Filter"
+  ],
+  "author": {
+    "name": "oyooyo"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.3.1"
+  },
+  "dependencies": {
+    "nixfilter": "0.0.1",
+    "simble": "^0.2.1"
+  }
+}

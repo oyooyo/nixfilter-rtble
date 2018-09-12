@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "",
+  "sources": [
+    "index.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,aAAA;;AAGA,MAAM,CAAC,OAAP,GACC;EAAA,OAAA,EACC;IAAA,mBAAA,EAAqB,OAAA,CAAQ,qBAAR;EAArB;AADD",
+  "sourcesContent": [
+    "'use strict'\n\n# What this module exports\nmodule.exports =\n\tfilters:\n\t\t'rtble_temperature': require('./rtble_temperature')\n"
+  ]
+}
